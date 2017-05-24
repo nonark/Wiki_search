@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/nhnent/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/nhnent/Documents/Wiki_Search/app/build/intermediates/pre-dexed/debug/gson-2.8.0_fc788391bba0606f082c553d26e025b769f422a1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nhnent/Documents/Wiki_Search2/app/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/nhnent/Documents/Wiki_Search2/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.5_44a260e9d5410bf0784bd92a1be195216a3fe889/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nhnent/Documents/Wiki_Search2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/nhnent/Documents/Wiki_Search2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6e12ec3e706fd106f278fdf01a1bd2a79fb1035d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nhnent/Documents/Wiki_Search2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ff43fe098156be50a750311460114bfb862b7973">
+        <dex dex="/Users/nhnent/Documents/Wiki_Search2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_87a0148c5a3b54ebb6e05bc4795de4659b5e5f24/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nhnent/Documents/Wiki_Search/app/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/nhnent/Documents/Wiki_Search/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.5_0c4a892fea517a9463fde56da52bf6491aae0ba5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nhnent/.android/build-cache/a68fb6c44c10971cec3d6da5ce9c6bb1d73825b1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/nhnent/Documents/Wiki_Search/app/build/intermediates/pre-dexed/debug/classes_bef27c477ea5ed85a8adf760063edfb8868337a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nhnent/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9">
+        <dex dex="/Users/nhnent/Documents/Wiki_Search/app/build/intermediates/pre-dexed/debug/guava-19.0_5614aa20e94399c7dac84bd067b4bea46df6f09d.jar" />
+    </item>
+
+</items>

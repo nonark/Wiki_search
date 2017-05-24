@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Bar">
+        <attr name="fontColor" format="color" />
+        <attr name="fontSize" format="dimension" />
+        <attr name="leftButtonImage" format="reference" />
+        <attr name="rightButtonImage" format="reference" />
+    </declare-styleable>
+</resources>

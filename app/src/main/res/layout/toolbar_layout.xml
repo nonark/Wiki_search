@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backButtonArea"
+            >
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                tools:background="@drawable/btn_back" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingRight="12dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:id="@+id/searchTextArea"
+            >
+
+            <search.android.customview.CustomEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:textSize="24dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
+                android:hint="검색어를 입력하세요"
+                android:id="@+id/searchText"
+                android:inputType="textUri"
+                android:layout_alignParentLeft="true"
+                android:maxLength="20"
+                android:imeOptions="actionSearch"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:id="@+id/deleteButton"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_close_gray"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:background="@color/colorDefaultUnderLine"
+                android:layout_below="@id/searchText"
+                android:id="@+id/searchTextUnderLine"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingRight="12dp"
+            android:paddingLeft="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:id="@+id/statusArea"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:paddingBottom="5dp"
+                tools:text="Result"
+                android:id="@+id/titleBar"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:maxLength="20"
+                android:gravity="center"
+                android:imeOptions="actionSearch"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:background="@color/colorDefaultUnderLine"
+                android:layout_below="@id/titleBar"
+                android:id="@+id/underLine"
+                />
+
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/rightButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                tools:background="@drawable/ic_close" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>
